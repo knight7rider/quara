@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main_contener {
+        /* background-color: rgb(50, 182, 205); */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        background-image: url(bh.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        margin: 0px;
+
+    }
+
+    ::-webkit-input-placeholder {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .contener {
+        border-radius: 2px;
+        background-color: white;
+        height: 558px;
+        width: 700px;
+        box-sizing: border-box;
+
+    }
+
+    .heading {
+        text-align: center;
+
+    }
+
+    .quora {
+        padding-top: 50px;
+        box-sizing: border-box;
+        width: 178px;
+        /* height: 115px; */
+    }
+
+    .heading_row {
+        box-sizing: border-box;
+        height: 30%;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        text-align: center;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+    }
+
+    .headline {
+        font-weight: bold;
+    }
+
+    .sub-contener {
+        height: 50%;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+
+
+    }
+
+    .left-sub-contener {
+        /* background-color: aquamarine; */
+        width: 49%;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    .middle-sub-contner {
+        /* background-color: rgb(252, 249, 249); */
+        width: 2%;
+        height: 100%;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sub-contener-right {
+        width: 49%;
+        height: 100%;
+        /* background-color: aqua; */
+        padding: 10px;
+        box-sizing: border-box;
+
+
+    }
+
+
+
+    .horizontal {
+        width: 1%;
+        height: 250px;
+        background-color: rgb(201, 198, 198);
+    }
+
+    .box-size {
+        margin-top: 10px;
+        padding: 3px;
+        width: 301px;
+        height: 46px;
+        font-size: 15.5px;
+        background: white;
+        border: 1px solid rgb(196, 194, 194);
+        cursor: pointer;
+        border-radius: 4px;
+        border-color: rgb(221, 220, 219);
+    }
+
+    .box-size:hover {
+        background-color: rgb(240, 238, 236);
+    }
+
+    .align {
+        text-align: start;
+
+    }
+
+    .login-text {
+        border-bottom: 1px solid rgb(207, 207, 207);
+        padding: 0px 4px 4px 0px;
+    }
+
+    .google-img {
+        width: 20px;
+        padding: 5px;
+    }
+
+    .login {
+        margin: 8px;
+        color: aliceblue;
+        border-radius: 25px;
+        padding: 10px;
+        width: 70px;
+        position: relative;
+        left: 113px;
+        top: 10px;
+        border: none;
+        background-color: rgb(84, 181, 236);
+    }
+
+    /* anchr tag */
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer {
+        width: 100%;
+        height: 92px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        /* border-top: 1px solid rgb(179, 175, 175); */
+        box-sizing: border-box;
+
+
+    }
+
+    .endbox1,
+    .endbox2 {
+        height: 50%;
+        position: relative;
+        border-top: 1.5px solid rgb(222, 228, 225);
+    }
+
+    .button {
+        border: none;
+        background: none;
+        color: blue;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .endbox2 {
+        background-color: rgb(222, 224, 225);
+
+        position: relative;
+        top: 6px;
+
+    }
+
+    .hindi {
+        color: blue !important;
+    }
+
+    .abhi,
+    .hindi,
+    .button {
+        position: relative;
+        top: 10px;
+        color: rgb(110, 109, 109);
+        font-size: 13px;
+
+    }
+
+    input {
+        cursor: auto !important;
+    }
+</style>
+
+
+<body>
+    <!--outer most contener which cover hole web page -->
+    <div class="main_contener">
+        <!-- this is the second bigger box whis contain all the info about login and signin -->
+        <div class="contener">
+            <!-- heading row which contain quora image and headline  -->
+            <div class="heading_row">
+                <img class="quora" src="quora.png" alt="as">
+                <h4 class="hedline">A place to share knowledge and better understand the world</h4>
+            </div>
+            <!-- it is a left cintainer which contain login with the help of facebook and google  -->
+            <div class="sub-contener">
+                <div class="left-sub-contener">
+                    <p style="font-size: 13px; margin: 13px 13px 13px 0px;color: rgb(164, 165, 167);">By continuing you
+                        indicate that you agree to<br> Quora's
+                        <a href="t&c" style="color: blue;"> Terms of Service</a> and
+                        <a style="color: blue;" href="xx">Privacy Policy </a>
+                    </p>
+
+                    <button class="align box-size"> <img style="padding: 5px ; width:20px;" src="images.png">
+                        <spam style="position: relative;top:-8px;">Continue with google</spam>
+                    </button>
+
+                    <button class=" align box-size"> <img style="width: 40px;padding-top:5px;" src="download.png">
+                        <spam style="position: relative;top:-8px;">Continue with facebook</spam>
+                    </button>
+
+                    <p style="position:relative;top:20px"><a style=" color: black; font-size: 15px; " href="xx">sign up
+                            with gmail</a>
+                    </p>
+
+                </div>
+                <div class="middle-sub-contner">
+                    <div class="horizontal">
+
+                    </div>
+                </div>
+                <div class="sub-contener-right">
+                    <div class="login-text">
+                        <h4 style="margin:5px;">Login</h4>
+                    </div>
+                    <h5 style=" margin: 17px 5px 0px;">Email</h5>
+                    <input style="margin-top: 7px; " type="text" name="email" placeholder="your email"
+                        class="box-size align">
+                    <h5 style="padding-top:20px;">Password</h5>
+                    <input style="padding:0px 0px 0px 10px; " type="text" name="email" placeholder="your password?"
+                        class="box-size align">
+                    <a style="text-decoration: none; color: black;" href="xyz">forgot password?</a>
+                    <button class="login">
+                        <h4>Login</h4>
+                    </button>
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="endbox1">
+                    <a class="hindi" href="xx">हिंदी</a>
+                    <button class="button"><b>></b></button>
+                </div>
+
+                <div class="endbox2">
+                    <a class="abhi" href="xyz">About.</a>
+                    <a class="abhi" href="xyz">Carees.</a>
+                    <a class="abhi" href="xyz">privacy.</a>
+                    <a class="abhi" href="xyz">term.</a>
+                    <a class="abhi" href="xyz">contact.</a>
+                    <a class="abhi" href="xyz">language.</a>
+                    <a class="abhi" href="xyz">Your ad choices.</a>
+                    <a class="abhi" href="xyz">press.</a>
+                    <a class="abhi">© Quora, Inc. 2023</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
